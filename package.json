@@ -1,0 +1,22 @@
+{
+    "name": "@fsdls/js-client",
+    "version": "1.0.0",
+    "description": "JavaScript client for the Flight Simulation Data Link Services (FSDLS) protocol.",
+    "author": "Michael Romashov <mromashov@icloud.com>",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "lint": "biome check",
+        "lint:fix": "biome check --fix --unsafe",
+        "check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "zod": "3.23.8"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "typescript": "5.7.2"
+    }
+}
